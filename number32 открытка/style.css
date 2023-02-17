@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/2018Holidays___Army_Template_for_greeting_card_for_February_23_123652_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .container {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+  .wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(196, 139, 129, 0.7);
+}
+
+.button {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(218, 109, 109);
+    background-color: rgb(255, 182, 182);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.content__text {
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: rgb(218, 109, 109);
+    background-color: rgb(255, 182, 182);
+}
+
+.textarea {
+    border: none;
+    outline: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.name {
+    color: rgb(218, 109, 109);
+    background-color: rgb(255, 182, 182);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+}
+
+.input {
+    border: none;
+    outline: none;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button2 {
+    
+}
